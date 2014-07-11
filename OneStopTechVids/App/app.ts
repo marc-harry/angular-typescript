@@ -24,7 +24,7 @@
 
     Config.$inject = ['$routeProvider'];
 
-    var app = angular.module("techVidsApp", ['ngRoute']);
+    var app = angular.module("angularTypeScript", ['ngRoute']);
     app.config(Config);
     app.factory('techVidsDataSvc', ['$http', '$q', Services.TechVidsDataSvc.techVidsDataSvcFactory]);
     app.controller('TechVidsListCtrl', Controllers.TechVidsListCtrl);

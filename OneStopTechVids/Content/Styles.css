@@ -2,14 +2,9 @@
     padding-top: 61px;
 }
 
-.navbar-header a.navbar-brand {
-    margin-top: -15px;
-    margin-bottom: -20px;
+.navbar-header a.navbar-brand h6 {
+    color: #ccc;
 }
-
-    .navbar-header a.navbar-brand h6 {
-        color: #ccc;
-    }
 
 footer {
     padding-left: 15px;
@@ -33,15 +28,15 @@ footer {
     padding-bottom: 20px;
 }
 
-    .thumbnail:hover {
-        box-shadow: 2px 2px 2px 2px #7f7f7f;
-    }
+.thumbnail:hover {
+    box-shadow: 2px 2px 2px 2px #7f7f7f;
+}
 
-    .thumbnail .caption {
-        text-align: center;
-        padding-top: 20px;
-        font-family: 'Comic Sans MS';
-    }
+.thumbnail .caption {
+    text-align: center;
+    padding-top: 20px;
+    font-family: 'Comic Sans MS';
+}
 
 .right {
     clear: right;
