@@ -172,7 +172,7 @@
 
             self.httpService.post(self.techVidsApiPath, video)
                 .then(result => {
-                video.id = result.data.id;
+                video.id = (<any>result.data).id;
                 self.videos.push(video);
                 deferred.resolve();
             }, error => {

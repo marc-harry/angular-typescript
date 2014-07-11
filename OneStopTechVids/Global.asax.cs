@@ -6,6 +6,7 @@ using System.Web.Http;
 using System.Web.Routing;
 using System.Web.Security;
 using System.Web.SessionState;
+using AngularTypeScript.App_Start;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Serialization;
 
@@ -22,11 +23,7 @@ namespace AngularTypeScript
             settings.Formatting = Formatting.Indented;
             settings.ContractResolver = new CamelCasePropertyNamesContractResolver();
 
-            RouteTable.Routes.MapHttpRoute(
-               name: "DefaultApi",
-               routeTemplate: "api/{controller}/{id}",
-               defaults: new { id = RouteParameter.Optional }
-           );
+            GlobalConfiguration.Configure(WebApiConfig.Register);
         }
 
         protected void Session_Start(object sender, EventArgs e)
