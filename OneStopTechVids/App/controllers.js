@@ -1,4 +1,4 @@
-var Controllers;
+﻿var Controllers;
 (function (Controllers) {
     var TechVidsCategoryCtrl = (function () {
         function TechVidsCategoryCtrl($scope, techVidsDataSvc) {
@@ -41,6 +41,8 @@ var Controllers;
         }
         TechVidsListCtrl.prototype.init = function () {
             var _this = this;
+            this.$scope.videos = [];
+
             //Fetching all videos if id is not found in route path
             if (this.$routeParams.id !== undefined) {
                 this.dataSvc.getVideosByCategory(parseInt(this.$routeParams.id)).then(function (data) {

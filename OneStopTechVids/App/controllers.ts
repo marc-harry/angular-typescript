@@ -24,6 +24,8 @@ module Controllers {
         private dataSvc: Services.TechVidsDataSvc;
 
         private init(): void {
+            this.$scope.videos = [];
+
             //Fetching all videos if id is not found in route path
             if (this.$routeParams.id !== undefined) {
                 this.dataSvc.getVideosByCategory(parseInt(this.$routeParams.id))
