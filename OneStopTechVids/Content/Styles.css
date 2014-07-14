@@ -23,6 +23,10 @@ footer {
     margin-left: 10px;
 }
 
+.navbar-colour {
+    background-color: #f8f8f8;
+}
+
 .thumbnail {
     box-shadow: 1px 1px 1px 1px #DBDBDB;
     padding-bottom: 20px;

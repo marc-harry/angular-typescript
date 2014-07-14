@@ -14,7 +14,7 @@
             this.$scope.addVideo = () => {
                 this.$scope.video.rating = 4;
                 this.$scope.video.category = this.$scope.category.id;
-                dataSvc.addVideo(this.$scope.video).then(() => {
+                this.dataSvc.addVideo(this.$scope.video).then(() => {
                     var category = this.$scope.video.category;
 
                     this.$scope.video = { id: 0, title: "", description: "", category: 0, author: "", rating: 0 };

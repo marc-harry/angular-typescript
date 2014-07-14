@@ -142,9 +142,8 @@
     <TypeScriptCompile Include="App\controllers\AddVideoCtrl.ts" />
     <TypeScriptCompile Include="App\controllers\TechVidsListCtrl.ts" />
     <TypeScriptCompile Include="App\controllers\TechVidsCategoryCtrl.ts" />
-    <TypeScriptCompile Include="App\directives.ts" />
-    <TypeScriptCompile Include="App\services.ts" />
-    <TypeScriptCompile Include="App\controllers.ts" />
+    <TypeScriptCompile Include="App\Directives\UniqueVideoTitle.ts" />
+    <TypeScriptCompile Include="App\Services\TechVidsDataSvc.ts" />
     <TypeScriptCompile Include="App\extensions.ts" />
     <TypeScriptCompile Include="Scripts\typings\angularjs\angular-animate.d.ts" />
     <TypeScriptCompile Include="Scripts\typings\angularjs\angular-cookies.d.ts" />
