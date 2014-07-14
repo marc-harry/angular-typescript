@@ -57,3 +57,16 @@ footer {
     border: none;
     background: none;
 }
+
+.list-unstyled {
+    font-size:14px;
+}
+
+.add-video {
+    color:#0000FF; 
+    font-weight:bold;
+}
+
+.error-style {
+    color:red ;
+}

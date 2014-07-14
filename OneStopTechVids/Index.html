@@ -19,8 +19,8 @@
         <div class="container" style="margin-top:10px;">
             <div class="row">
                 <div class="col-md-3" ng-controller="TechVidsCategoryCtrl">
-                    <ul class="list-unstyled" style="font-size:14px;">
-                        <li><a ng-href="#/add" style="color:#0000FF; font-weight:bold;">Add New Video</a></li>
+                    <ul class="list-unstyled">
+                        <li><a ng-href="#/add" class="add-video">Add New Video</a></li>
                         <li ng-repeat="category in categories"><a ng-href="#/list/{{category.id}}">{{category.name}}</a></li>
                     </ul>
                 </div>

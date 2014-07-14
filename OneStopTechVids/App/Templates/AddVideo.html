@@ -20,7 +20,7 @@
         <input type="button" name="delete" value="Cancel" class="btn btn-danger" ng-click="cancelVideo()" />
     </div>
 </form>
-<div style="color:red;">
+<div class="error-style">
     <div ng-show="techVidForm.title.$dirty && techVidForm.title.$invalid">
         <span ng-show="techVidForm.title.$error.required">Please enter a title for the video</span>
         <span ng-show="techVidForm.title.$error.uniqueVideoTitle">Title already used</span>
