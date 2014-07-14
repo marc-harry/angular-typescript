@@ -121,6 +121,8 @@
     <Content Include="Index.html" />
     <Content Include="Scripts\ng-Fx.js" />
     <Content Include="Scripts\ng-Fx.min.js" />
+    <Content Include="Scripts\r.js" />
+    <Content Include="Scripts\require.js" />
     <Content Include="Scripts\TweenMax.min.js" />
     <Content Include="Web.config" />
   </ItemGroup>
@@ -136,6 +138,10 @@
   </ItemGroup>
   <ItemGroup>
     <TypeScriptCompile Include="App\app.ts" />
+    <TypeScriptCompile Include="App\controllers\EditTechVideoCtrl.ts" />
+    <TypeScriptCompile Include="App\controllers\AddVideoCtrl.ts" />
+    <TypeScriptCompile Include="App\controllers\TechVidsListCtrl.ts" />
+    <TypeScriptCompile Include="App\controllers\TechVidsCategoryCtrl.ts" />
     <TypeScriptCompile Include="App\directives.ts" />
     <TypeScriptCompile Include="App\services.ts" />
     <TypeScriptCompile Include="App\controllers.ts" />
